@@ -1,2 +1,6 @@
-# c_language_exercises
-In this repository you can find a few exercises to practice the c language. 
+# C Language Exercises
+
+The purpose of this repository it's to help people who want to practice the,
+C Language. 
+
+
