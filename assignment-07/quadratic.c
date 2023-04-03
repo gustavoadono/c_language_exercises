@@ -21,12 +21,11 @@ int main (int argc, char *argv[])
   
   x2 =  ((-b) - delta)/(2*a);
 
-  printf("Delta is:%f\n",delta);
-
   printf("The solution using the '+' operator is: %f\n",x1);
 
 
   printf("The solution using the '-' operator is: %f\n",x2);
 
+  
   return 0;
 }
