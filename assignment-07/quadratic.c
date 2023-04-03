@@ -6,20 +6,22 @@ int main (int argc, char *argv[])
   float a,b,c,x1,x2,delta;
 
   printf("Enter the value of variable 'A':\n");
-  scanf("%f",a);
+  scanf("%f",&a);
 
   printf("Enter the value of variable 'B':\n");
-  scanf("%f",b);
+  scanf("%f",&b);
   
   printf("Enter the value of variable 'C':\n");
-  scanf("%f",c);
+  scanf("%f",&c);
   
   delta = b*b-(4*a*c);
   delta = sqrt(delta);
 
-  x1 =  ((-b) + delta/2*a);
+  x1 =  ((-b) + delta)/(2*a);
   
-  x2 =  ((-b) - delta/2*a);
+  x2 =  ((-b) - delta)/(2*a);
+
+  printf("Delta is:%f\n",delta);
 
   printf("The solution using the '+' operator is: %f\n",x1);
 
